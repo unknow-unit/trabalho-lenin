@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+/**
+
+Escreva um programa que leia dois números e apresente a diferença do maior para o menor.
+
+ */
+public class Exercicio4 {
+    public static void main(String[] Args){
+        int n1, n2;
+        Scanner leia = new Scanner(System.in);
+        
+        
+        System.out.print("Digite o primeiro valor: ");
+        n1 = leia.nextInt();
+        System.out.print("Digite o segundo valor: ");
+        n2 = leia.nextInt();
+        
+        
+        if(n1 == n2){
+            System.out.println("Não existe diferença");
+            
+        }else if(n1 > n2){
+            System.out.println(" A diferença entre os números " + n1 + "  e " + n2 + " é " + (n1-n2));
+        }else{
+            System.out.println(" A diferença entre os números " + n1 + "  e " + n2 + " é " + (n2-n1));
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+}
